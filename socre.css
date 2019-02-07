@@ -1,0 +1,235 @@
+body{
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+#logo_1{
+    width:4%;
+   height:4%;
+   box-align:left;
+   vertical-align: middle
+}
+div.headerText{
+    display: inline;
+    vertical-align: middle;
+    font-family:sans-serif;
+    margin-left: 1%;
+    font-weight:bolder;
+    color: red;
+    font-size: 1.5em;
+    font-stretch: narrower
+}
+nav{
+    margin: none;
+    background-color: #DCDCDC; 
+}
+
+ a {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 18%;
+    text-decoration: none;
+    color: grey
+    }
+  a:visited{
+    color:red;
+
+}
+.selectbox{
+    margin:2% 0% 2% 2%;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+p{
+    margin-bottom: 0%;
+    padding: 0%;
+    color: red;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 1em;
+    font-stretch: narrower
+}
+hr{
+    display: block;
+    border: 0;
+    border-top:2px solid red;
+    margin-top: 5px;
+    padding: 0;
+    width: 100%
+}
+.navpanel>p{
+  color: white;
+  padding: auto;
+  text-align: left;
+  margin-top:40px;
+ }
+ tr,td{
+    margin-top: 1%;
+    border: .1px solid gray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+    
+    }
+.muc2{
+    width: 4.4%;
+    margin-top: 1%;
+}
+.muc1{
+    width: 2%;
+    margin-top: 1%;
+    table-layout: auto
+}
+.remainth{
+    width: 8%;
+    /* margin-top: 1%; */
+    height: 35px;
+    padding: 0%
+}
+ .remainth1{
+    width: 4%;
+    margin-top: 1%;
+   padding: 0%;
+     
+} 
+.remainth3{
+  width: 8.4%;
+  margin-top: 1%;
+ padding: 0%;
+   
+} 
+.remainth4{
+  width: 25.4%;
+  margin-top: 1%;
+ 
+   
+}
+
+
+.remainth2{
+
+    width: 8%;
+    margin-top: 1%;
+    
+} 
+
+[class*="col-"]{
+   margin: 0%;
+   padding: 0;
+
+}
+.row{
+    padding: 0%;
+    margin:0%;
+    
+}
+.uptable {
+ color: #696969;
+ font-family:sans-serif;
+    font-weight:bold;
+    font-size: 10px;
+    font-stretch: narrower
+} 
+.action{
+    color: #8B0000;
+    font-family:sans-serif;
+       font-weight:bold;
+       font-size: 16px;
+       font-stretch: narrower;
+       text-shadow: 4px 6px 9px #696969
+}
+
+div.selectionbox {
+    text-align: right;
+    padding: 0;
+    font-family: "Myriad Pro", "Arial", sans;
+  }
+  
+  .dropdown-el {
+    margin-top: 2vh;
+    min-width: 12em;
+    position: relative;
+    display: inline-block;
+    margin-right: 1em;
+    min-height: 2em;
+    max-height: 2em;
+    overflow: hidden;
+    top: 0.5em;
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    color: #444;
+    outline: none;
+    border: 0.06em solid transparent;
+    border-radius: 1em;
+    background-color: #DCDCDC;
+    transition: 0.3s all ease-in-out;
+  }
+  .dropdown-el input {
+    display: none;
+  }
+  .dropdown-el label {
+    border-top: 0.06em solid #d9d9d9;
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 3em;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s color ease-in-out;
+  }
+  .dropdown-el label:nth-child(2) {
+    margin-top: 2em;
+    border-top: 0.06em solid #d9d9d9;
+  }
+  .dropdown-el input:checked + label {
+    display: block;
+    border-top: none;
+    position: absolute;
+    top: 0;
+  }
+  .dropdown-el input:checked + label:nth-child(2) {
+    margin-top: 0;
+    position: relative;
+  }
+  .dropdown-el::after {
+    content: "";
+    position: absolute;
+    right: 0.8em;
+    top: 0.9em;
+    border: 0.3em solid #6f8ba0;
+    border-color: #6f8ba0 transparent transparent transparent;
+    transition: 0.4s all ease-in-out;
+  }
+  .dropdown-el.expanded {
+    border: 0.06em solid #6f8ba0;
+    background: #fff;
+    border-radius: 0.25em;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
+    max-height: 35em;
+  }
+  .dropdown-el.expanded label {
+    border-top: 0.06em solid #d9d9d9;
+  }
+  .dropdown-el.expanded label:hover {
+    color: #6f8ba0;
+  }
+  .dropdown-el.expanded input:checked + label {
+    color: #6f8ba0;
+  }
+  .dropdown-el.expanded::after {
+    transform: rotate(-180deg);
+    top: 0.55em;
+  }
+ 
+  
+  

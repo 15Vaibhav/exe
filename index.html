@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Execution-Cup</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- logo -->
+        <img id="logo_1" src='./icons/icon.png'>
+        <div class="headerText">
+            SEABU Execution Cup 2019
+        </div>
+        <!-- first panel -->
+        <div class="row" style="margin:0%;padding: 0%;width:100%;">
+            <div class="col-sm-4" style="background-color:#DCDCDC;margin: 0%;padding: 0%;text-align: center;height: 32px;padding-top: 5px">
+                <a  href='./index.html'style="margin-top: 6px">Performance Snapshot</a>
+            </div>
+            <div class="col-sm-4" style="background-color:#DCDCDC;margin: 0%;padding: 0%;text-align: center;height: 32px;padding-top: 5px">
+                <a href='./score.html'style="margin-top: 32px">Scores</a>
+            </div>
+            <div class="col-sm-4" style="background-color:#DCDCDC;margin: 0%;padding: 0%;text-align: center;height: 32px;padding-top: 5px">
+                <a style="margin-left: 42px;margin-top: 6px">EC Rankings</a>
+            </div>
+        </div>
+
+        <!-- selelectionbox -->
+        <div class="row">
+            <div class="col-sm-1">
+                <p style="margin-top:22px">Tier-1</p>
+            </div>
+            <div class="col-sm-11">
+                <div class="selectionbox">
+                    <span class="dropdown-el">
+                        <input type="radio" name="sortType" value="january" checked="checked" id="january"><label
+                            for="sort-relevance">January</label>
+                        <input type="radio" name="sortType" value="february" id="february"><label for="february">February</label>
+                        <input type="radio" name="sortType" value="march" id="march"><label for="march">March</label>
+                        <input type="radio" name="sortType" value="april" id="april"><label for="april">April</label>
+                        <input type="radio" name="sortType" value="may" id="may"><label for="may">May</label>
+                        <input type="radio" name="sortType" value="june" id="june"><label for="june">June</label>
+                        <input type="radio" name="july" value="july" id="july"><label for="july">July</label>
+                        <input type="radio" name="sortType" value="august" id="august"><label for="august">August</label>
+                        <input type="radio" name="sortType" value="september" id="september"><label for="september">September</label>
+                        <input type="radio" name="sortType" value="october" id="october"><label for="october">October</label>
+                        <input type="radio" name="sortType" value="november" id="november"><label for="november">November</label>
+                        <input type="radio" name="sortType" value="december" id="december"><label for="december">December</label>
+
+
+
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <!-- secone panel -->
+        <div style="margin-top:2%">
+            <div class="row" style="width:100%;margin-top:0%;padding: 0%">
+                <div class="col-sm-2">
+                    <div class="row" style="margin:0%;padding: 0%;width:100%;">
+
+                        <div class="col-sm-3" style="background-color:gray;margin: 0%;padding: 0%;height: 90px; border-right: 1px solid white;">
+                            <p style="color: white;margin-top: 45px;margin-left: 10px;">S.N.</p>
+                        </div>
+
+                        <div class="col-sm-9" style="background-color:gray;margin: 0%;padding: 0%;height: 90px;color: white">
+                            <p style="color: white;margin-top: 45px;margin-left: 30px;">Bottler Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-10" style="background-color:gray;margin: 0%;padding: 0%;">
+                    <div class="row" style="margin:0%;padding: 0%;width:100%;">
+                        <div class="col-sm-3" style="background-color:gray;margin: 0%;padding: 0%;text-align: center;height: 30px;">
+                            <p style="color: white;margin-top: 6px">BUISINESS METRICS</p>
+                        </div>
+                        <div class="col-sm-6" style="background-color:gray;margin: 0%;padding: 0%;text-align: center">
+                            <p style="color: white;margin-top: 6px">COMMERCIAL METRICS</p>
+                        </div>
+                        <div class="col-sm-3" style="background-color:gray;margin: 0%;padding: 0%;text-align: center">
+                            <p style="color: white;margin-left: 42px;margin-top: 6px">PERFORMENCE METRICS</p>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin:0%;padding: 0%;width:100%;background-color: #DCDCDC">
+                        <table style="width:100%;;margin: 0%">
+                            <div>
+                                <tr style="height:32px">
+
+                                    <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                        <p class="uptable">NSR (Mn USD)</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                        <p class="uptable">RANX. (Mn)</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="action">A</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="action">C</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="action">T</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="action">I</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="action">O</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="action">N</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                        <p class="uptable">RED Score</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                        <p class="uptable">RED Outlet Coverage</p>
+                                    </td>
+
+                                </tr>
+                                <tr style="height:27px">
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="uptable">Affordable ND</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="uptable">DLZ Mix</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="uptable">Net New CDE</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="uptable">IC Mix</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="uptable">INC. NSR Premium</p>
+                                    </td>
+                                    <td style="font-size: x-small;text-align: center" class="remainth">
+                                        <p class="uptable">Skills Value Share</p>
+                                    </td>
+
+                                </tr>
+                            </div>
+
+
+
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- fist table -->
+        <div id='repLast-table'>
+
+        </div>
+        <br>
+
+
+        <!-- seconed table -->
+
+        <div>
+
+            <div class="row">
+                <div class="col-sm-1">
+                    <p style="margin-top:22px">Tier-2</p>
+                </div>
+
+            </div>
+            <hr>
+            <div style="margin-top:2%">
+                <div class="row" style="width:100%;margin-top:0%;padding: 0%">
+                    <div class="col-sm-2">
+                        <div class="row" style="margin:0%;padding: 0%;width:100%;">
+
+                            <div class="col-sm-3" style="background-color:gray;margin: 0%;padding: 0%;height: 90px; border-right: 1px solid white;">
+                                <p style="color: white;margin-top: 45px;margin-left: 10px;">S.N.</p>
+                            </div>
+
+                            <div class="col-sm-9" style="background-color:gray;margin: 0%;padding: 0%;height: 90px;color: white">
+                                <p style="color: white;margin-top: 45px;margin-left: 30px;">Bottler Name</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-10" style="background-color:gray;margin: 0%;padding: 0%;">
+                        <div class="row" style="margin:0%;padding: 0%;width:100%;">
+                            <div class="col-sm-3" style="background-color:gray;margin: 0%;padding: 0%;text-align: center;height: 30px;">
+                                <p style="color: white;margin-top: 6px">BUISINESS METRICS</p>
+                            </div>
+                            <div class="col-sm-6" style="background-color:gray;margin: 0%;padding: 0%;text-align: center">
+                                <p style="color: white;margin-top: 6px">COMMERCIAL METRICS</p>
+                            </div>
+                            <div class="col-sm-3" style="background-color:gray;margin: 0%;padding: 0%;text-align: center">
+                                <p style="color: white;margin-left: 42px;margin-top: 6px">PERFORMENCE METRICS</p>
+                            </div>
+                        </div>
+
+                        <div class="row" style="margin:0%;padding: 0%;width:100%;background-color: #DCDCDC">
+                            <table style="width:100%;;margin: 0%">
+                                <div>
+                                    <tr style="height:32px">
+
+                                        <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                            <p class="uptable">NSR (Mn USD)</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                            <p class="uptable">RANX. (Mn)</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="action">A</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="action">C</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="action">T</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="action">I</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="action">O</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="action">N</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                            <p class="uptable">RED Score</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth" rowspan="2">
+                                            <p class="uptable">RED Outlet Coverage</p>
+                                        </td>
+
+                                    </tr>
+                                    <tr style="height:27px">
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="uptable">Affordable ND</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="uptable">DLZ Mix</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="uptable">Net New CDE</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="uptable">IC Mix</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="uptable">INC. NSR Premium</p>
+                                        </td>
+                                        <td style="font-size: x-small;text-align: center" class="remainth">
+                                            <p class="uptable">Skills Value Share</p>
+                                        </td>
+
+                                    </tr>
+                                </div>
+
+
+
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <div id='repLast-table_2'>
+
+                </div>
+
+            </div>
+
+        </div>
+        <footer >
+            <p style="text-align:right;margin:2% 0 4% 0;">Text that appears in the footer</p>
+          </footer>
+          
+    </div>
+
+  
+
+</body>
+
+</html>
